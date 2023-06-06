@@ -128,6 +128,10 @@ iframe{
     width:100%;
 }
 
+h4{
+    margin-top:27px;
+}
+
 
 @media screen and (max-width: 600px) {
  .actual-container{
@@ -178,20 +182,16 @@ iframe{
     margin-left:1px;
 }
 
-.datapp a{
-    text-decoration:none;
-    color: rgb(63, 88, 30);
-    font-weight: bold;
-    font-size:19px;
-}
 
-.datap li{
-    margin-top:px;
-}
+
+
 
 .datap li:nth-child(2), li:nth-child(3), li:nth-child(4), li:nth-child(5),
-li:nth-child(6), li:nth-child(7){
+li:nth-child(6), li:nth-child(7), li:nth-child(8),li:nth-child(9), li:nth-child(10) ,li:nth-child(11),
+li:nth-child(12),li:nth-child(13),
+li:nth-child(14),li:nth-child(15){
     margin-top:36px;
+    border: 1px solid red;
 }
 
 
@@ -211,6 +211,30 @@ iframe{
     margin-top: 49px;
     width:100%;
 }
+
+
+.datapp {
+    margin-top: -20px;
+    margin-left: 1px;
+  }
+  
+  .datapp a {
+    text-decoration: none;
+    color: rgb(48, 65, 25);
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .datapp,
+  .datapp a {
+    display: inline;
+    font-family: 'Cardo', serif;
+    font-size: 16px;
+    opacity: 0.8;
+  }
+  
+
+
 
 }
 
